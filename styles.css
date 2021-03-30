@@ -1,0 +1,55 @@
+
+input[type=text], select {
+  width: 25%;
+  
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+  
+  .resim{
+ margin-top:-540px;
+ margin-right:200px;
+      float:right;
+      display:inline-block;
+  }
+ 
+  .form{
+
+ padding-left:300px;
+ padding-top:100px;
+ 
+
+
+  }
+  #anaform{
+
+
+    margin-left: 100px;
+  }
+  h6{
+
+    opacity: 0.5;
+    padding-left:40px;
+  }
+  .kutu{
+      margin-bottom:-150px;
+      margin-left:100px;
+      border:1px solid blue;
+      width:80px;
+      height:80px;
+      background-color: blue;
+  }
+  h3{
+      
+    padding-left:100px;
+
+  }
+ span{
+    padding-left:30px;
+    font-size:12px;
+ }

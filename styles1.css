@@ -1,0 +1,111 @@
+#buton1{
+
+    width:80px;
+    height:120px;
+}
+#buton2{
+
+    width:80px;
+    height:120px;
+}
+#buton3{
+
+    width:80px;
+    height:120px;
+}
+#buton4{
+
+    width:80px;
+    height:120px;
+}
+#buton5{
+
+    width:80px;
+    height:120px;
+}
+#buton6{
+
+    width:80px;
+    height:120px;
+}
+#buton1{
+
+    width:80px;
+    height:120px;
+}
+.butonlar{
+
+    margin-top:150px;
+    margin-left:450px;
+}
+.alt1{
+    width:80px;
+    height:120px;
+    background-color: #7B7E92;
+}
+.alt2{
+    width:80px;
+    height:120px;
+    background-color: #959BB7;
+}
+.alt3{
+
+    width:80px;
+    height:120px;
+    background-color: #C9CCDB;
+}
+
+.alt4{
+    width:80px;
+    height:120px;
+    background-color: #E3E5EC;
+    
+}
+.alt5{
+
+    width:80px;
+    height:120px;
+    background-color: #F4F5F7;
+}
+.alt6{
+    width:80px;
+    height:120px;
+    background-color: #F4F5F7;
+    
+}
+.ortabuton{
+
+    margin-top:20px;
+    margin-left:450px;
+}
+.ortabuton3{
+    margin-top:20px;
+    margin-left:450px;
+
+}
+.ortabuton2{
+    margin-top:20px;
+    margin-left:450px;
+
+}
+.input{
+    
+    margin-top:50px;
+    margin-left:450px;
+}
+.hover:hover{
+    color:blue; 
+
+}
+
+.focus:focus{
+    color:blue;
+    
+}
+
+
+.locked{
+
+width:280px;
+}
+

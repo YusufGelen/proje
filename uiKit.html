@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uiKit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="styles1.css">
+
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="butonlar">
+   <h1>Colors</h1>
+    
+    <button type="button"  id="buton1" class="btn btn-primary mt-2">primary</button>
+    <button type="button"  id="buton2" class="btn btn-dark mt-2">dark</button>
+    <button type="button"  id="buton3" class="btn btn-danger mt-2">danger</button>
+    <button type="button"  id="buton4" class="btn btn-warning mt-2">warning</button>
+    <button type="button"  id="buton5" class="btn btn-success mt-2">success</button>
+    <button type="button"  id="buton6" class="btn btn-info mt-2">info</button>
+    <br>
+    <br>
+    <button type="button" class="alt1" >GreyDark</button>
+    <button type="button" class="alt2" >Grey</button>
+    <button type="button" class="alt3" >GreyLight</button>
+    <button type="button" class="alt4" >GreyLight2</button>
+    <button type="button" class="alt5" >Bright</button>
+    <button type="button" class="alt6" >Bright2</button>
+</div>
+
+
+<br><br>
+<div class="ortabuton">
+    <h1>Buttons</h1>
+<button type="button" id="normal" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-primary btn-lg active">Active</button>
+<button type="button" id="normal2" class="btn btn-primary btn-lg "><span class="glyphicon glyphicon-plus"></span></button>
+<button type="button" id="normal" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" id="normal" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-default btn-lg" disabled="disabled">Disabled</button>
+</div><br><br>
+
+<div class="ortabuton2">
+    <button type="button" class="btn btn-primary">Buton</button>
+    <button type="button" class="btn btn-primary active">Active</button>
+    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></button>
+    <button type="button" class="btn btn-primary">Buton</button>
+    <button type="button" class="btn btn-primary">Buton</button>
+    <button type="button" class="btn btn-default " disabled="disabled">Disabled</button>
+     
+</div>
+<br><br>
+<div class="ortabuton3">
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-primary btn-sm active">Active</button>
+    <button type="button" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-plus"></button>
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-default btn-sm" disabled="disabled">Disabled</button>
+
+</div>
+
+<br><br>
+<div class="input">
+<h1>İnput && DropDownList </h1>
+
+        <div  class="normal">
+         <label for="usr">Normal</label><br>
+         <input type="text" class="klasik" id="usr" placeholder="Text">
+       </div>
+
+       <div  class="hover">
+        <label for="usr">Hover</label><br>
+        <input type="text" class="hover" id="usr" placeholder="Text">
+      </div>
+      <div  class="focus">
+        <label for="usr">Focus</label><br>
+        <input type="text" class="focus" id="usr" placeholder="Text">
+    </div>
+    <div class="locked">
+        <label for="usr">Locked</label><br>
+    <INPUT  class="locked" NAME="realname" VALUE="Locked" DISABLED>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Selecteed
+        </button>
+        
+      </div>
+      <div class="dropdown hover">
+        <button class="dropdown-toggle hover" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hover
+        </button>
+        
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Active
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Selected</a>
+          <a class="dropdown-item" href="#">Not Selected</a>
+          
+        </div>
+      </div>
+      <div class="dropdown active">
+        <button class="dropdown-toggle active" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" DISABLED>
+         Disabled
+        </button>
+        
+      </div>
+
+</div>
+
+
+<br><br><br>
+</body>
+</html>
